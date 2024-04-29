@@ -12,7 +12,7 @@ function Form({handleNewData}) {
 
     function handleSubmit(e){
         e.preventDefault()
-        setFormData({description:"", category: "", amount: "", date: ""})
+        setFormData({date: "", description: "", category: "", amount: ""})
 
 
         handleNewData(formData) 
